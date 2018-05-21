@@ -59,7 +59,9 @@ Step 3: Run bitcoind with blocknotify
 	
 	Stop bitcoind if it's already running
 	bitcoind stop
-	//Wait till it ends
+
+Wait till it ends
+	
 	tedcoind -blocknotify="/absolute/path/to/scripts/blocknotify.sh --password <password> --host localhost --port 3333"
 
 Step 4: Adjust pool polling
