@@ -52,8 +52,10 @@ To make life easy you can run the generateAdminHash script to make the hash
 	./scripts/generateAdminHash.sh <password>
 
 Step 2: Test It
-Restart the pool if it's already running
-run `./scripts/blocknotify.sh --password <password> --host localhost --port 3333`
+Restart the pool if it's already running:
+	
+	./scripts/blocknotify.sh --password <password> --host localhost --port 3333
+
 Ensure everything is ok.
 
 Step 3: Run bitcoind with blocknotify
