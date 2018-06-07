@@ -2,7 +2,7 @@
 # Send notification to Stratum mining instance on localhost that there's new tedcoin block
 # You can use this script directly as an variable for -blocknotify argument:
 # 	./tedcoind -blocknotify="blocknotify.sh --password admin_password"
-# This is also very basic example how to use Stratum protocol in native Python
+# This is also very basic example how to use Stratum protocol in native Python.
 
 import socket
 import json
