@@ -1,5 +1,5 @@
 '''
-    Implements simple interface to tedcoind's RPC.
+    Implements simple interface to tedcoind's RPC
 '''
 
 import simplejson as json
