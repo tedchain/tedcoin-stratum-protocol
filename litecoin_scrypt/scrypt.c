@@ -57,7 +57,7 @@ typedef struct HMAC_SHA256Context {
 
 /*
  * Encode a length len/4 vector of (uint32_t) into a length len vector of
- * (unsigned char) in big-endian form.  Assumes len is a multiple of 4.
+ * (unsigned char) in big-endian form.  Assumes len is a multiple of 4
  */
 static void
 be32enc_vect(unsigned char *dst, const uint32_t *src, size_t len)
