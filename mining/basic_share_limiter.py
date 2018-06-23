@@ -11,7 +11,7 @@ from twisted.internet import defer
 from mining.interfaces import Interfaces
 import time
 
-''' This is just a customized ring buffer '''
+''' This is just a customized ring buffer. '''
 class SpeedBuffer:
 	def __init__(self, size_max):
 		self.max = size_max
