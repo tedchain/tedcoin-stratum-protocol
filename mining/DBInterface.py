@@ -57,7 +57,7 @@ class DBInterface():
         self.usercacheclock = reactor.callLater( settings.DB_USERCACHE_TIME , self.clearusercache)
 
     def scheduleImport(self):
-	# This schedule's the Import
+	# This schedule's the Import.
 	use_thread = True
 	if settings.DATABASE_DRIVER == "sqlite":
 	    use_thread = False
